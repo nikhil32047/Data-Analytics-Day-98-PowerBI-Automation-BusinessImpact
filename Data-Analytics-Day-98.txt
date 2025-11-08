@@ -1,0 +1,77 @@
+Power BI, Dashboard Automation & Business Impact
+
+🔹 Lesson 1: Power BI Data Modeling
+=======================================
+Summary:
+A strong data model is the foundation of every Power BI dashboard.
+Build relationships between tables using keys.
+Use Star Schema for efficiency (Fact + Dimension tables).
+Apply DAX measures like SUM(), AVERAGE(), CALCULATE() for insights.
+
+Example:
+Create relationships between Sales, Products, and Customers tables.
+Use a DAX formula:
+Total Revenue = SUM(Sales[Amount])
+
+🎥 Video: Power BI Data Modeling Tutorial (12 min)
+
+
+🔹 Lesson 2: Power Query & Data Transformation Automation
+=============================================================
+Summary:
+Power Query automates data cleaning — no manual Excel work!
+Remove duplicates, rename columns, merge tables.
+Apply transformations once — Power BI refreshes automatically.
+Use “Advanced Editor” to script transformations in M-language.
+
+Example:
+Automatically remove nulls and merge Region & Sales data every refresh.
+
+🎥 Video: Power Query Data Cleaning & Automation (14 min)
+
+
+🔹 Lesson 3: DAX Measures for KPIs
+=======================================
+Summary:
+DAX (Data Analysis Expressions) helps create smart metrics.
+KPIs: Total Sales, Profit Margin, Year-to-Date (YTD) growth.
+Use CALCULATE(), FILTER(), DATEADD() for dynamic measures.
+
+Example:
+YTD Sales = TOTALYTD(SUM(Sales[Amount]), Calendar[Date])
+Profit Margin = DIVIDE(SUM(Sales[Profit]), SUM(Sales[Revenue]))
+
+🎥 Video: DAX for Beginners (15 min)
+
+
+🔹 Lesson 4: Power BI Dashboard Automation
+==============================================
+Summary:
+Automate refreshes and reports to save time.
+Schedule refreshes in Power BI Service.
+Use Power Automate Flows → auto-email KPI reports.
+Connect to real-time sources (Excel, SQL, API).
+
+Example:
+A weekly report auto-refreshes Monday 8 AM and emails managers KPI PDFs — zero manual effort.
+
+🎥 Video: Automate Power BI Dashboards with Power Automate (16 min)
+
+
+🔹 Lesson 5: Case Study – Business Impact Through Dashboard Automation
+========================================================================
+Summary:
+📊 Scenario: A retail chain automated its regional sales dashboards.
+Steps:
+----------
+Data import via Power Query.
+Model creation & DAX KPIs.
+Power BI Service scheduled refresh.
+Power Automate → email summary to executives.
+
+Result:
+Reporting time reduced by 80%.
+Real-time decision-making improved store performance by 25%.
+
+🎥 Video: Business Impact Dashboard Case Study (20 min)
+
